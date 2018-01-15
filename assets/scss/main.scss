@@ -1,0 +1,64 @@
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'),
+  url(../../static/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html, body {
+  background-color: black;
+  color: #839496;
+  letter-spacing: 0.5px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 1.1em;
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 0 10px 0;
+}
+
+p {
+  text-align: left;
+  margin: 10px;
+}
+
+li {
+  text-align: left;
+}
+
+a {
+  color: hsla(360, 100%, 85%, 1);
+}
+
+a:hover, a:focus, a:visited {
+  color: hsla(190, 100%, 45%, 1);
+}
+
+
+.logo {
+  width: 23px;
+}
+
+.page-enter-active, .page-leave-active {
+}
+
+.page-enter, .page-leave-active {
+  opacity: 0;
+}
+
+.blogImage {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  border-radius: 20px;
+  box-shadow: 0px 1px 4px 2px black;
+}
