@@ -7,6 +7,7 @@
       <p>
         <span class="tab">&#9;</span>  One of the best features of Vue.js is that it allows one to write less code by reusing code components across an application.  By identifying patterns in code, isolating them in components and reusing them when needed, applications become more efficient and maintainable.  The concept of components is reiterated in many forms such as modularity, separation of concerns, service oriented architecture, don't repeat yourself(DRY) etc.  In this article, we examine how DRY code makes smooth applications! </p>
       <img src="https://ipfs.io/ipfs/QmQpLk6E2YmVuXes4DqZfLYyPUeX7qDpTWqoezPZRJuMeV" alt="Circuit Board" class="blogImage">
+      <iframe width="560" height="315" src="https://emb.d.tube/#!/corbettreport/vjvxpm9i" frameborder="0" allowfullscreen></iframe>
       <p>
         <span class="tab">&#9;</span> In this first example, I have a list of blog posts that I want to display on two different routes of my app and possibly later in a sidebar.  Since this code will be used at various places within my app, it is best to make it a component and import the component into each view rather than duplicate code across multiple views.
       </p>
